@@ -14,7 +14,7 @@ function btnact() {
       <div
         class="pl-20 col-start-1 lg:col-span-2 col-span-4 flex justify-center items-start flex-col"
       >
-        <img src="../assets/Group 2.svg" alt="Marvel Logo" />
+        <img src="../assets/Group2.svg" alt="Marvel Logo" />
         <button
           class="font-oswald text-xl border border-solid py-2 px-3 rounded-lg font-bold text-white bg-custred-0 border-custred-0"
           ref="watch"
@@ -28,7 +28,7 @@ function btnact() {
       <div
         class="pl-20 col-start-1 lg:col-span-2 col-span-4 flex justify-center items-start flex-col"
       >
-        <img src="../assets/Group 2.svg" alt="Marvel Logo" />
+        <img src="../assets/Group2.svg" alt="Marvel Logo" />
         <button
           ref="watch"
           @click="btnact"
