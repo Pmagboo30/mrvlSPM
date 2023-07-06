@@ -10,7 +10,7 @@ function btnact() {
 
 <template>
   <HomeLayout>
-    <div class="h-[80%] bg-svg1 grid grid-cols-4">
+    <div class="h-[80%] bg-svg1 sm:grid hidden grid-cols-4">
       <div
         class="pl-20 col-start-1 lg:col-span-2 col-span-4 flex justify-center items-start flex-col"
       >
@@ -24,7 +24,7 @@ function btnact() {
         </button>
       </div>
     </div>
-    <!-- <div class="h-full bg-svg2 grid sm:hidden grid-cols-4">
+    <div class="h-full bg-svg2 grid sm:hidden grid-cols-4">
       <div
         class="pl-20 col-start-1 lg:col-span-2 col-span-4 flex justify-center items-start flex-col"
       >
@@ -37,7 +37,7 @@ function btnact() {
           WATCH NOW
         </button>
       </div>
-    </div> -->
+    </div>
   </HomeLayout>
 </template>
 <style>
